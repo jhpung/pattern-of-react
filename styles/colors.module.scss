@@ -1,0 +1,24 @@
+$red: #ee3333;
+
+$darkgray: #666666;
+$gray: #aaaaaa;
+$lightgray: #eeeeee;
+$white: #fff;
+
+$primary: #25a485;
+$primary-dark: #357f6d;
+$primary-light: #44c650;
+
+$primary-hover: adjust-color($primary, $alpha: -0.3);
+$primary-focus: adjust-color($primary, $alpha: -0.2);
+$primary-active: adjust-color($primary, $alpha: -0.1);
+
+$secondary-hover: adjust-color($primary-light, $lightness: 30%);
+$secondary-focus: adjust-color($primary-light, $lightness: 25%);
+$secondary-active: adjust-color($primary-light, $lightness: 20%);
+
+$error: $red;
+
+:export {
+  red: $red;
+}
