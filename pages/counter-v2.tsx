@@ -4,7 +4,7 @@ import { Layout } from "../src/components/Layout/Layout";
 const CounterV2Page = () => {
   return (
     <Layout>
-      <CounterV2>
+      <CounterV2 onChange={(value) => console.log(value)}>
         <CounterV2.Minus />
         <CounterV2.Plus />
         <CounterV2.Label>Counter</CounterV2.Label>

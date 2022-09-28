@@ -15,18 +15,6 @@ const Counter: React.FC<IProps> = ({ label, max, onChange }) => {
     setValue((prev) => Math.min(max, prev + 1));
   }, [max]);
 
-  const change = useCallback(
-    (e: ChangeEvent<HTMLInputElement>) => {
-      const value = Number(e.target.value);
-
-      if (typeof value !== "number") {
-        return;
-      }
-
-      setValue(Math.min(max, value));
-    },
-    [max]
-  );
   const subtract = useCallback(() => {
     setValue((prev) => prev - 1);
   }, []);

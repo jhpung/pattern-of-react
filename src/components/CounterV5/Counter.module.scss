@@ -1,0 +1,24 @@
+@import "../../../styles/colors.module.scss";
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8px;
+  background-color: $lightgray;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8px;
+  color: white;
+  background-color: $darkgray;
+}

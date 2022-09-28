@@ -14,6 +14,15 @@ const Home: NextPage = () => {
       <Link href="/counter-v2">
         <Button>Counter V2</Button>
       </Link>
+      <Link href="/counter-v3">
+        <Button>Counter V3</Button>
+      </Link>
+      <Link href="/counter-v4">
+        <Button>Counter V4</Button>
+      </Link>
+      <Link href="/counter-v5">
+        <Button>Counter V5</Button>
+      </Link>
     </Layout>
   );
 };
